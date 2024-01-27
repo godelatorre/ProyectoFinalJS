@@ -43,6 +43,17 @@
           "numeroElegido": 3
         }
       ]
+    },
+    {
+      "id": "32d3",
+      "ganadores": [
+        {
+          "nombre": "angela",
+          "apellido": "lucero",
+          "email": "luceropicu@gmail.com",
+          "numeroElegido": 3
+        }
+      ]
     }
   ]
 }

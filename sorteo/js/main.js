@@ -93,6 +93,9 @@ const realizarSorteo = () => {
     let mensajeFinal = `El número ganador es el ${numeroGanador}. Los ganadores son: `;
     mensajeFinal = ganadores.reduce((mensaje, ganador) => `${mensaje}${ganador.nombre} ${ganador.apellido} (${ganador.email}), `, mensajeFinal);
 
+    //Premio
+    mensajeFinal += '¡Felicitaciones! GANASTE 3 semillas automáticas.';
+
     const resultadoElement = document.querySelector("#resultado");
     resultadoElement.innerHTML = `<p>${mensajeFinal}</p>`;
 
