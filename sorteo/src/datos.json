@@ -1,0 +1,48 @@
+{
+  "ganadores": [
+    {
+      "id": "744e",
+      "ganadores": [
+        {
+          "nombre": "carla",
+          "apellido": "de la torre",
+          "email": "g18delatorre@gmail.com",
+          "numeroElegido": 1
+        }
+      ]
+    },
+    {
+      "id": "bf14",
+      "ganadores": [
+        {
+          "nombre": "gabriel",
+          "apellido": "de la torre",
+          "email": "g18delatorre@gmail.com",
+          "numeroElegido": 2
+        }
+      ]
+    },
+    {
+      "id": "57c6",
+      "ganadores": [
+        {
+          "nombre": "asarasa",
+          "apellido": "asa",
+          "email": "carlaguirin07@gmail.com",
+          "numeroElegido": 1
+        }
+      ]
+    },
+    {
+      "id": "a876",
+      "ganadores": [
+        {
+          "nombre": "fatima",
+          "apellido": "flores",
+          "email": "carlaguirin07@gmail.com",
+          "numeroElegido": 3
+        }
+      ]
+    }
+  ]
+}

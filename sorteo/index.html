@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Sorteo</title>
+</head>
+
+<body>
+  <h1> Sorteo </h1>
+  <div class="contenedor-formulario">
+    <form id="formularioParticipante">
+      <input type="text" id="nombre" placeholder="Nombre" required>
+      <input type="text" id="apellido" placeholder="Apellido" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <select id="numeroElegido" required>
+        <option value="">Elija un número del 1 al 3</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <button type="submit">Agregar Participante</button>
+      <button id="btnReiniciar">Reiniciar</button>
+    </form>
+  </div>
+
+  <div id="resultado"></div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

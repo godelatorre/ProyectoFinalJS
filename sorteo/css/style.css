@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/sorteo/public/arañaFondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 5px;
+    font-size: 55px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 38, 196, 24, 0.8 */
+
+form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(rgba(5, 13, 6, 0.8), rgba(38, 196, 24, 0.8)); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin: 0;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ecf0f1;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#btnReiniciar {
+    background-color: #d9534f;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+#resultado {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
